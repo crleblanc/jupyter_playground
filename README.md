@@ -6,7 +6,7 @@ A random collection of Jupyter/IPython notebooks
 
 Install Git on your system and type the following:
 
-`git clone https://github.com/crleblanc/jupyter_playground.git
+`git clone https://github.com/crleblanc/jupyter_playground.git && 
 cd jupyter_playground`
 
 Alternatively you can download an archive of this repository and unpack 

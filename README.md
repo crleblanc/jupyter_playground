@@ -36,3 +36,10 @@ the docker container.  These files will remain intact even if you stop the
 docker container.
 
 `docker run -v $(pwd):/home/jovyan/work -p 8888:8888 -it crleblanc/obspy-notebook:latest`
+
+## Security
+
+The above command runs the Jupyter session unencrypted on your local computer.
+It's a very good idea to enable authentication and https even if you're running
+these notebooks from Docker.  Read this link for more information: 
+http://jupyter-notebook.readthedocs.io/en/latest/security.html
